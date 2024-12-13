@@ -1042,7 +1042,7 @@ a.ld-top-header-btn.ld-footer-btn {
     color: var(--ld-main-color);
 }
 
-a.ld-top-header-btn.ld-footer-btn svg {
+a.ld-top-header-btnld-footer-btn svg {
     fill: var(--ld-main-color);
 }
 
@@ -2222,6 +2222,12 @@ address a:hover {
 
     .ld-logo {
         text-align: center;
+    }
+}
+
+@media (max-width:540px) {
+    .ld-footer-section1 h5 {
+        display: none;
     }
 }
 
