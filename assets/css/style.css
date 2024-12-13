@@ -1759,7 +1759,7 @@ a.ld-subscribe {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #57cdd8;
+    background-color: var(--ld-main-color);
     border-radius: 50px 50px 0px 50px;
     border: none;
     -webkit-transition: all 0.3s;
