@@ -1506,7 +1506,7 @@ a.ld-subscribe {
 }
 
 /*-------- about css start -----------*/
-.ld-header-wrapper.ld-header-wrapper01 {
+.ld-banner-wrapper01 {
     background-color: #57cdd8;
 }
 
@@ -1922,7 +1922,7 @@ a.ld-subscribe {
 /* tab css start */
 
 .accordion-button:not(.collapsed) {
-    color: #57cdd8;
+    color: var(--ld-main-color);
     background-color: #ffffff;
 }
 .accordion-button:focus {
@@ -2004,7 +2004,9 @@ address a:hover {
     height: auto;
 }
 
-
+.ld-about-wrapper-00 {
+    background: var(--ld-main-color1);
+}
 
 
 
